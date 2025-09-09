@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/rank-restaurantes/static/css/main.e6c13ad2.css",
+    "main.js": "/rank-restaurantes/static/js/main.e233ab89.js",
+    "static/js/453.06fe3646.chunk.js": "/rank-restaurantes/static/js/453.06fe3646.chunk.js",
+    "index.html": "/rank-restaurantes/index.html",
+    "main.e6c13ad2.css.map": "/rank-restaurantes/static/css/main.e6c13ad2.css.map",
+    "main.e233ab89.js.map": "/rank-restaurantes/static/js/main.e233ab89.js.map",
+    "453.06fe3646.chunk.js.map": "/rank-restaurantes/static/js/453.06fe3646.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.e233ab89.js"
+  ]
+}
