@@ -15,9 +15,18 @@ function App() {
   useEffect(() => {
     const cargarDatos = async () => {
       try {
-        // Cargar JSON
-        const response = await fetch("/data/restaurantes.json");
+        // Usar process.env.PUBLIC_URL para GitHub Pages
+        const jsonUrl = process.env.PUBLIC_URL + "/data/restaurantes.json";
+        console.log("Intentando cargar JSON desde:", jsonUrl); // Para debug
+        
+        const response = await fetch(jsonUrl);
+        
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        
         const dataJson = await response.json();
+        console.log("JSON cargado exitosamente:", dataJson); // Para debug
         setRestaurantesJson(dataJson);
 
         // Cargar localStorage
