@@ -6,6 +6,14 @@
     "puntuacion": 6.7,
     "comentario": "Nos sentaron al lado del baño y la puerta golpeaba a Carlos cada vez que la abrían. Buen trato del personal y destacamos la presentación del postre de granizado de mango. No fueron los mejores fideos que nos comimos nunca pero estaban bien.",
     "ubicacion": "https://maps.app.goo.gl/eQaW372cEFP1iL4L6"
+  },
+  {
+    "id": 2,
+    "nombre": "Sicilia in bocca",
+    "tipo": "Italiano",
+    "puntuacion": 7.4,
+    "comentario": "Fue una agradable cena de recompensa por montar una mesita de noche.",
+    "ubicacion": "https://maps.app.goo.gl/UHveT7eLZ1FGfcrA7"
   }
   
 ]
